@@ -10,7 +10,7 @@ function PrintStudentswithMap() {
   //Write your code here , just console.log\
   arr.map(arr=>{
     if(arr.marks>50){
-      console.log( arr.id +" " + arr.name+" "+  arr.marks)
+      console.log( "MapStudents"+" " +"id:" +arr.id +"," +"name:"+ arr.name+","+ "marks:"+arr.marks);
     }
   });
 }
@@ -19,7 +19,7 @@ function PrintStudentsbyForEach() {
   //Write your code here , just console.log
   arr.forEach(arr=>{
     if(arr.marks>50){
-      console.log( arr.id +" " + arr.name+" "+  arr.marks)
+      console.log(  "forEachStudents"+" " +"id:" +arr.id +"," +"name:"+ arr.name+","+ "marks:"+arr.marks);
     }
   });
 }
@@ -36,7 +36,7 @@ function removeFailedStudent() {
   //Write your code here, just console.log
   arr.filter(arr=>{
     if(arr.marks>50){
-      console.log(arr.id +" " + arr.name+" "+  arr.marks)
+      console.log(  "above50Students"+" " +"id:" +arr.id +"," +"name:"+ arr.name+","+ "marks:"+arr.marks);
     }
   });
 }
